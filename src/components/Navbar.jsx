@@ -15,7 +15,7 @@ const Navbar = () => {
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             } cursor-pointer text-[16px]`}
           >
-            <a href={`#${link.id}`}>{link.title}</a>
+            <a href={`#${link.id}`} className='hover:text-dodgersBlue'>{link.title}</a>
           </li>
         ))}
       </ul>
@@ -37,7 +37,7 @@ const Navbar = () => {
                   index === navLinks.length - 1 ? "mb-0" : "mb-5"
                 } cursor-pointer text-[16px]`}
               >
-                <a href={`#${link.id}`}>{link.title}</a>
+                <a href={`#${link.id}`} className='hover:text-dodgersBlue'>{link.title}</a>
               </li>
             ))}
           </ul>
