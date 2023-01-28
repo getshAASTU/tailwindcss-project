@@ -14,7 +14,7 @@ const Footer = () => {
           </p>
         </div>
         {footerLinks.map((footerLink) => (
-          <div className="flex flex-col justify-start border-white">
+          <div className="flex flex-col flex-1 py-6 justify-center border-white">
             <h4
               key={footerLink.title}
               className={`text-white font-normal font-poppins text-[18px] xs:leading-[56.8px] leading-[46.8px]`}
